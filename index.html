@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farah Yasser | Backend Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container nav-container">
+            <a href="#" class="logo">Farah<span>.</span></a>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <div class="greeting">
+                    <i class="fas fa-seedling"></i>
+                    <span>Hi there 🌸, I'm</span>
+                </div>
+                <h1>Farah Yasser <span class="highlight">✨</span></h1>
+                <p class="tagline">Backend Developer specializing in Laravel, passionate about building clean, reliable, and thoughtfully designed systems.</p>
+                <p>I enjoy working on backend logic, APIs, and databases, while also appreciating the harmony between backend and frontend. I believe good software is not just functional — it's calm, intentional, and well-structured.</p>
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Farah Yasser - Backend Developer">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a Backend Developer working with Laravel, with a strong foundation in HTML, CSS, and JavaScript. I'm deeply passionate about learning, growth, and building meaningful systems that are clean, reliable, and thoughtfully designed.</p>
+                    
+                    <p><strong>🌱 Currently growing in:</strong> Advanced Laravel, REST APIs, Backend Architecture, Database Design</p>
+                    
+                    <p><strong>💼 Open to roles in:</strong> Backend & Full-Stack Development</p>
+                    
+                    <p><strong>⚡ Little joy:</strong> turning ideas into systems that quietly work beautifully</p>
+                    
+                    <p>My approach to development is rooted in creating systems that are not only functional but also maintainable and scalable. I enjoy the challenge of translating complex requirements into elegant, simple solutions.</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="About Farah Yasser">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Skills & Expertise</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3><i class="fas fa-server"></i> Backend</h3>
+                    <ul class="skill-items">
+                        <li><i class="fas fa-check"></i> Laravel</li>
+                        <li><i class="fas fa-check"></i> PHP</li>
+                        <li><i class="fas fa-check"></i> REST APIs</li>
+                        <li><i class="fas fa-check"></i> Backend Architecture</li>
+                        <li><i class="fas fa-check"></i> Authentication Systems</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h3><i class="fas fa-paint-brush"></i> Frontend</h3>
+                    <ul class="skill-items">
+                        <li><i class="fas fa-check"></i> HTML5</li>
+                        <li><i class="fas fa-check"></i> CSS3</li>
+                        <li><i class="fas fa-check"></i> JavaScript</li>
+                        <li><i class="fas fa-check"></i> Responsive Design</li>
+                        <li><i class="fas fa-check"></i> UI/UX Principles</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Database</h3>
+                    <ul class="skill-items">
+                        <li><i class="fas fa-check"></i> MySQL</li>
+                        <li><i class="fas fa-check"></i> Database Design</li>
+                        <li><i class="fas fa-check"></i> Query Optimization</li>
+                        <li><i class="fas fa-check"></i> Eloquent ORM</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools</h3>
+                    <ul class="skill-items">
+                        <li><i class="fas fa-check"></i> Git & GitHub</li>
+                        <li><i class="fas fa-check"></i> Composer</li>
+                        <li><i class="fas fa-check"></i> Postman</li>
+                        <li><i class="fas fa-check"></i> VS Code</li>
+                        <li><i class="fas fa-check"></i> Figma</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Selected Projects</h2>
+            
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="backend">Backend</button>
+                <button class="filter-btn" data-filter="frontend">Frontend</button>
+                <button class="filter-btn" data-filter="fullstack">Full-Stack</button>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Backend Project 1 -->
+                <div class="project-card" data-category="backend">
+                    <div class="project-image" style="background-image: url('https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                    <div class="project-content">
+                        <span class="project-tag backend-tag">Backend</span>
+                        <h3>Organizo — Productivity Website</h3>
+                        <p>A calm, structured system designed to help users organize and prioritize tasks with clean backend logic and authentication.</p>
+                        <p><strong>Tech:</strong> Laravel, MySQL</p>
+                        <p><strong>Focus:</strong> Authentication, Task Management, Clean Backend Logic</p>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Backend Project 2 -->
+                <div class="project-card" data-category="backend">
+                    <div class="project-image" style="background-image: url('https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                    <div class="project-content">
+                        <span class="project-tag backend-tag">Backend</span>
+                        <h3>Midlancer — Freelancer Platform</h3>
+                        <p>A platform connecting freelancers with clients in Egypt in a simple, thoughtful way with structured backend workflows.</p>
+                        <p><strong>Tech:</strong> Laravel, MySQL</p>
+                        <p><strong>Focus:</strong> User Roles, Job Workflows, Backend Structure</p>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Frontend Project -->
+                <div class="project-card" data-category="frontend">
+                    <div class="project-image" style="background-image: url('https://images.unsplash.com/photo-1543466835-00a7907e9de1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                    <div class="project-content">
+                        <span class="project-tag frontend-tag">Frontend</span>
+                        <h3>PetZ — Smart Pet Dispenser System</h3>
+                        <p>A smart system that automatically serves pets' food and water based on schedules set through a mobile app.</p>
+                        <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+                        <p><strong>Focus:</strong> Intuitive UI, Smooth Interaction, Gentle User Experience</p>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Full-Stack Project -->
+                <div class="project-card" data-category="fullstack">
+                    <div class="project-image" style="background-image: url('https://images.unsplash.com/photo-1518717758536-85ae29035b6d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                    <div class="project-content">
+                        <span class="project-tag fullstack-tag">Full-Stack</span>
+                        <h3>Petopia — Pet Adoption Platform</h3>
+                        <p>A warm, user-friendly pet adoption website with contact and interaction features and full CRUD system.</p>
+                        <p><strong>Tech:</strong> Laravel, MySQL, HTML, CSS, JavaScript</p>
+                        <p><strong>Focus:</strong> Full CRUD System, User Authentication, Seamless Frontend–Backend Flow</p>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Let's Connect</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p>I'm currently open to new opportunities in backend and full-stack development. Whether you have a project in mind or just want to connect, feel free to reach out!</p>
+                    
+                    <div class="contact-info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>hello@farahyasser.dev</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Available for remote positions</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-info-item">
+                        <i class="fas fa-briefcase"></i>
+                        <div>
+                            <h4>Open to Roles</h4>
+                            <p>Backend & Full-Stack Development</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>Send a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" class="form-control" placeholder="Subject" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <a href="#" class="footer-logo">Farah<span>.</span></a>
+                    <p>Backend Developer specializing in Laravel, passionate about building clean, reliable, and thoughtfully designed systems.</p>
+                    
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-codepen"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-envelope"></i> hello@farahyasser.dev</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Available for remote work</p>
+                    <p><i class="fas fa-briefcase"></i> Open to Backend & Full-Stack Roles</p>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2023 Farah Yasser. All rights reserved. | Designed with intentionality and care.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const navLinks = document.getElementById('navLinks');
+        
+        mobileMenuBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            mobileMenuBtn.innerHTML = navLinks.classList.contains('active') 
+                ? '<i class="fas fa-times"></i>' 
+                : '<i class="fas fa-bars"></i>';
+        });
+        
+        // Close mobile menu when clicking a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                mobileMenuBtn.innerHTML = '<i class="fas fa-bars"></i>';
+            });
+        });
+        
+        // Project filtering
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const projectCards = document.querySelectorAll('.project-card');
+        
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                
+                // Add active class to clicked button
+                button.classList.add('active');
+                
+                const filterValue = button.getAttribute('data-filter');
+                
+                // Show/hide projects based on filter
+                projectCards.forEach(card => {
+                    if (filterValue === 'all' || card.getAttribute('data-category') === filterValue) {
+                        card.style.display = 'block';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+        
+        // Form submission
+        const contactForm = document.getElementById('contactForm');
+        
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            
+            // Get form values
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const subject = document.getElementById('subject').value;
+            const message = document.getElementById('message').value;
+            
+            // In a real implementation, you would send this data to a server
+            // For this demo, we'll just show an alert
+            alert(`Thank you for your message, ${name}! I'll get back to you soon.`);
+            
+            // Reset form
+            contactForm.reset();
+        });
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
